@@ -79,6 +79,7 @@ h1, h2, p { margin-top: 0; }
 .icon-library { background: #f0e8e2; color: #805445; }
 .icon-sermon { background: #efebde; color: #8a7746; }
 .icon-guide { background: #e8ebf3; color: #4e628e; }
+.icon-hospital { background: #e7efea; color: #426d54; }
 .card-title { z-index: 1; margin-top: 14px; font: 700 18px/1.14 'Manrope', sans-serif; letter-spacing: -.55px; }
 .card-description { z-index: 1; max-width: 270px; margin-top: 9px; color: #717a72; font-size: 11px; line-height: 1.65; }
 .card-link { z-index: 1; display: flex; align-items: center; gap: 9px; margin-top: auto; padding-top: 15px; color: #365c3f; font-size: 10px; font-weight: 700; }
@@ -89,6 +90,7 @@ h1, h2, p { margin-top: 0; }
 .card-library { background: #fbf8f6; }
 .card-sermon { background: #faf9f3; }
 .card-guide { background: #f8f9fc; }
+.card-hospital { grid-column: 2; background: #f5f9f6; }
 
 .about { background: #e9eee6; }
 .about-inner { padding: 91px 12.6% 29px; }
@@ -116,6 +118,7 @@ h1, h2, p { margin-top: 0; }
   .section-wrap, .about-inner { padding-right: 8%; padding-left: 8%; }
   .project-grid { grid-template-columns: repeat(2, 1fr); }
   .project-card { min-height: 270px; }
+  .card-hospital { grid-column: auto; }
   .about-copy { gap: 30px; }
 }
 @media (max-width: 600px) {
